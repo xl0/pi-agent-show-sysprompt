@@ -1,6 +1,6 @@
 {
 	"name": "@xl0/show-sysprompt",
-	"version": "0.1.0",
+	"version": "0.1.0a",
 	"keywords": [
 		"pi-package"
 	],
@@ -29,7 +29,7 @@
 		"extensions": [
 			"./extensions"
 		],
-		"image": "https://raw.githubusercontent.com/xl0/pi-agent-show-sysprompt/main/screenshot.png",
-		"video": "https://raw.githubusercontent.com/xl0/pi-agent-show-sysprompt/main/demo.mp4"
+		"image": "https://raw.githubusercontent.com/xl0/pi-agent-show-sysprompt/master/screenshot.png",
+		"video": "https://raw.githubusercontent.com/xl0/pi-agent-show-sysprompt/master/demo.mp4"
 	}
 }
