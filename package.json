@@ -1,10 +1,11 @@
 {
-	"name": "show-sysprompt",
+	"name": "@xl0/show-sysprompt",
 	"version": "0.1.0",
 	"keywords": [
 		"pi-package"
 	],
 	"type": "module",
+	"license": "MIT",
 	"files": ["extensions/", "README.md", "LICENSE"],
 	"scripts": {
 		"typecheck": "tsgo --noEmit",
