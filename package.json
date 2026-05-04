@@ -1,11 +1,11 @@
 {
-	"name": "pi-agent-show-sysprompt",
+	"name": "show-sysprompt",
 	"version": "0.1.0",
-	"private": true,
 	"keywords": [
 		"pi-package"
 	],
 	"type": "module",
+	"files": ["extensions/", "README.md", "LICENSE"],
 	"scripts": {
 		"typecheck": "tsgo --noEmit",
 		"check": "bun run typecheck && bun run biome:check",
@@ -27,6 +27,8 @@
 	"pi": {
 		"extensions": [
 			"./extensions"
-		]
+		],
+		"image": "https://raw.githubusercontent.com/xl0/pi-agent-show-sysprompt/main/screenshot.png",
+		"video": "https://raw.githubusercontent.com/xl0/pi-agent-show-sysprompt/main/demo.mp4"
 	}
 }

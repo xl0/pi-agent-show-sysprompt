@@ -1,20 +1,20 @@
-# pi-agent-show-sysprompt
+# show-sysprompt
 
-Pi package that shows the rendered system prompt and active tool schemas at startup.
+Tiny Pi extension that shows the rendered system prompt and active tool schemas at startup.
 
-Useful for when you are developing extensions and add modify the tools / system prompt.
+Useful for when you are developing extensions and add/modify the tools/system prompt.
 
 ## Install
 
 ```bash
-pi install git:github.com/xl0/pi-agent-show-sysprompt
+pi install npm:@xl0/show-sysprompt
 ```
 (`-l` for local install into the current dir)
 
 ![alt text](screenshot.png)
 
-Or load directly:
+Or load without installing:
 
 ```bash
-pi -e git:github.com/xl0/pi-agent-show-sysprompt
+pi -e npm:@xl0/show-sysprompt
 ```
